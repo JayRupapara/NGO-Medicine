@@ -1,0 +1,74 @@
+.ParticularMedicine__Main {
+  background-color: #d4f6ff;
+  width: calc(100vw - 30rem);
+  min-height: 100vh;
+  position: relative;
+  top: 0;
+  left: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ParticularMedicine__Container {
+  margin-top: 2rem;
+  width: 80%;
+  /* background-color: #80adee; */
+  background-color: #2a2626;
+  color: rgba(255, 255, 255, 0.742);
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.ParticularMedicine__Container p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 1rem;
+  letter-spacing: 1px;
+}
+
+.ParticularMedicine__Container h2 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.EditMedicineReciever {
+  width: 80%;
+  margin-top: 3rem;
+}
+
+.InputRecieverField {
+  border: none;
+  outline: none;
+  padding: 1.3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: #2a2626;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.42);
+}
+
+.updateBtn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: auto;
+  width: 40%;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  background-color: #559bfc;
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.121);
+}
+
+.updateBtn:hover {
+  background-color: #3187ff;
+  transform: translateY(-5px);
+}

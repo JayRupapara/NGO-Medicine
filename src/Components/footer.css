@@ -1,0 +1,35 @@
+.Footer__Main {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: #80adee;
+  padding: 1rem 0;
+}
+
+.Map {
+  border-radius: 1rem;
+}
+
+.Footer__Right {
+  width: 50%;
+}
+.Footer__Right h2 {
+  font-size: 3.5rem;
+  margin: 2rem 0;
+}
+
+.Footer__Right h3 {
+  font-size: 2rem;
+  margin: 3.5rem 0;
+}
+
+.Footer__Links {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.Footer__Links i {
+  cursor: pointer;
+  font-size: 3rem;
+  margin-right: 3rem;
+}

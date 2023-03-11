@@ -1,0 +1,81 @@
+.Add_Admin_Main {
+  background-color: #d4f6ff;
+  width: calc(100vw - 30rem);
+  min-height: 100vh;
+  position: relative;
+  top: 0;
+  left: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Add_Admin_Main h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 4rem;
+}
+
+.Add_Admin_Form {
+  padding: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Add_Admin_Form_Left {
+  width: 45%;
+  height: 100%;
+}
+
+.Add_Admin_Form_Left img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Add_Admin_Form_Right {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Add_Admin_inputField {
+  border-radius: 0.5rem;
+  width: 90%;
+  background-color: #2a2626;
+  margin: 1rem 0;
+  display: flex;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.Add_Admin_inputField input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.Add_Admin_submt_btn {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  width: 90%;
+  background-color: #fc6e57;
+  color: black;
+  margin: 1.5rem 0;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  cursor: pointer !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.Add_Admin_submt_btn:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,103 @@
+.Register__Main {
+  width: 100vw;
+  min-height: calc(100vh - 7rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form__Mian {
+  margin: 5rem;
+  width: 80%;
+  display: flex;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.Register__Left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Register__Left img {
+  width: 78%;
+}
+
+.Register__Right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Register__Right h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.inputField {
+  width: 80%;
+}
+
+.inputField input {
+  outline: none;
+  border: none;
+  padding: 1.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+}
+
+.FullName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FullName input {
+  width: 48%;
+}
+
+.btnsGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.btnsGroup {
+  margin: 2rem 0 1rem;
+  width: 80%;
+}
+
+.btnsGroup .btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 48%;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  background-color: #80adee;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.btnsGroup .btn:nth-child(1) {
+  background-color: #fab30b;
+}
+
+.btnsGroup .btn:hover {
+  transform: translateY(-5px);
+}

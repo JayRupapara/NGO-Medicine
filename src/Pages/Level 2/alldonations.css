@@ -1,0 +1,65 @@
+.AllDonation__Main {
+  background-color: #d4f6ff;
+  width: calc(100vw - 30rem);
+  min-height: 100vh;
+  position: relative;
+  top: 0;
+  left: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AllDonation__Main h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 4rem;
+}
+
+.Medicine__Table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.139);
+  margin-bottom: 5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.349);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #2a2626;
+  color: white;
+}
+
+thead th {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+tbody {
+  background-color: #80adee;
+}
+
+tr {
+  align-items: center;
+  border-bottom: 1px solid rgba(40, 31, 31, 0.349);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+tbody td {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+  background-color: #3d4b60;
+  color: white;
+}

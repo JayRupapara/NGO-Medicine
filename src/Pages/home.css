@@ -1,0 +1,134 @@
+.Home__Main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home__Hero {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 7rem);
+}
+
+.Home__Left {
+  width: 50%;
+}
+
+.Home__Left img {
+  width: 100%;
+}
+
+.Home__Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.Home__Right h2 {
+  width: 80%;
+  font-weight: 500;
+  text-align: justify;
+  text-transform: capitalize;
+  line-height: 4rem;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.donateBtn {
+  cursor: pointer;
+  margin-top: 5rem;
+  width: 25rem;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  height: 6rem;
+  background-color: #5685d7;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.donateBtn:hover {
+  transform: translateY(-5px);
+  border-radius: 5.5rem;
+}
+
+.Home__Another {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home__why {
+  display: flex;
+  color: black;
+}
+
+.Home__why__left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home__why__left h2 {
+  font-size: 3rem;
+}
+
+.Home__why__left p {
+  margin-top: 2rem;
+  width: 80%;
+  text-align: justify;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.Home__why__right {
+  width: 40%;
+}
+
+.Home__why__right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home__vision {
+  margin: 5rem 0;
+  display: flex;
+  color: black;
+}
+
+.Home__vision__left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home__vision__left img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.Home__vision__right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home__vision__right h2 {
+  font-size: 3rem;
+}
+
+.Home__vision__right p {
+  margin-top: 2rem;
+  width: 80%;
+  text-align: justify;
+  font-size: 2rem;
+  line-height: 3rem;
+}

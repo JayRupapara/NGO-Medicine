@@ -1,0 +1,81 @@
+.Login__Mian {
+  width: 100vw;
+  min-height: calc(100vh - 7rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login__Form {
+  margin: 5rem;
+  width: 80%;
+  display: flex;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.Login__Right {
+  width: 40%;
+}
+
+.Login__Right img {
+  width: 100%;
+}
+
+.Login__Left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login__Left h2 {
+  margin: 2rem 0;
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.Login__Input {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.Login__Input input {
+  background-color: #2e353a;
+  outline: none;
+  border: none;
+  padding: 1.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 1rem 2rem #00000066;
+  border-radius: 0.5rem;
+}
+
+.Login__Input .btn {
+  margin-top: 3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  outline: none;
+  background-color: #9166cc;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.Login__Input .btn:hover {
+  transform: translateY(-5px);
+}
+
+.Admin_Login_Form {
+  height: 65vh;
+}
+
+.Admin_Login_Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,80 @@
+.SideNav__Main {
+  background-color: #80adee;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  height: 100vh;
+  color: black;
+}
+
+.SideNav__Logo {
+  margin: 3rem 0 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.SideNav__Logo img {
+  width: 3rem;
+  margin-right: 1.2rem;
+  object-fit: cover;
+}
+
+.SideNav__Logo h2 {
+  color: black;
+  font-size: 2.3rem;
+}
+
+.SideNav__Links {
+  width: 100%;
+}
+
+.SideNav__Links .Link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* height: 4rem; */
+  margin-bottom: 1.5rem;
+  transition: all 0.1s ease;
+}
+
+.Link:hover {
+  background-color: #2a2626;
+  color: white;
+}
+
+.Link:hover a {
+  color: white;
+}
+
+.Link a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 1.2rem 0;
+}
+
+.Link .fa-solid {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-right: 1.8rem;
+}
+
+.SideNav__Links .Link .active {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 3px; */
+  background-color: #2a2626;
+  color: white;
+}

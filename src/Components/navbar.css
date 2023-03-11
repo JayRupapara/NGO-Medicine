@@ -1,0 +1,58 @@
+.Navbar__Main {
+  width: 100vw;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #80adee;
+}
+
+.Navbar__Left {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.Navbar__Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__Logo h2 {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.Navbar__Left img {
+  width: 3rem;
+  margin-right: 1.2rem;
+  object-fit: cover;
+}
+
+.Navbar__Links {
+  margin-left: 5rem;
+  display: flex;
+}
+
+.Navbar__Links li {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+.Navbar__Links li a {
+  color: black;
+  font-size: 1.6rem;
+}
+
+.Navbar__Right {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.Navbar__Right a {
+  color: black;
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in-out;
+}

@@ -103,7 +103,7 @@ const AddAdmin = () => {
       } else {
         try {
           const response = await fetch(
-            "http://localhost:3000/api/admin/addadmin",
+            "https://ngo-medicine.onrender.com/api/admin/addadmin",
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },

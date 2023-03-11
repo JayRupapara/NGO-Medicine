@@ -7,7 +7,7 @@ const AdminSideNavbar = () => {
     window.localStorage.removeItem("adminId");
 
     const response = await fetch(
-      "http://localhost:3000/api/admin/logoutadmin",
+      "https://ngo-medicine.onrender.com/api/admin/logoutadmin",
       {
         // credentials: "include",
       }

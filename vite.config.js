@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     // proxy: "https://ngo-medicine.onrender.com",
-    proxy: "http://localhost:3000",
+    proxy: "https://ngo-medicine.onrender.com",
 
     // proxy: {
     //   "/api/registerdoner": {

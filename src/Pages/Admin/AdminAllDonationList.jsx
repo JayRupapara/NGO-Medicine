@@ -10,7 +10,7 @@ const AdminAllDonationList = () => {
 
   // --------------------- Fetch All Medicines ---------------------
   const fetchAllMedicines = async () => {
-    const response = await fetch("http://localhost:3000/api/allmedicines", {
+    const response = await fetch("https://ngo-medicine.onrender.com/api/allmedicines", {
       method: "GET",
       headers: { "Content-Type": "application/json" },
       // credentials: "include",

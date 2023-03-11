@@ -14,7 +14,7 @@ const ParticularMedicine = () => {
   // -------------------- Fetch Medicine Data --------------------
   const fetchMedicineData = async () => {
     const response = await fetch(
-      `http://localhost:3000/api/admin/medicine/${id}`,
+      `https://ngo-medicine.onrender.com/api/admin/medicine/${id}`,
       {
         method: "GET",
         headers: { "Content-Type": "application/json" },
@@ -55,7 +55,7 @@ const ParticularMedicine = () => {
   //------------------------ Update Reciever ------------------------
   const handleUpdateBtn = async () => {
     const response = await fetch(
-      `http://localhost:3000/api/admin/updatemedicine/`,
+      `https://ngo-medicine.onrender.com/api/admin/updatemedicine/`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

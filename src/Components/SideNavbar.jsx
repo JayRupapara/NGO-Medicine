@@ -5,7 +5,7 @@ import "./sidenavbar.css";
 const SideNavbar = () => {
   const LogoutDoner = async () => {
     window.localStorage.removeItem("DonerId");
-    const response = await fetch("http://localhost:3000/api/logoutdoner", {
+    const response = await fetch("https://ngo-medicine.onrender.com/api/logoutdoner", {
       // credentials: "include",
     });
   };

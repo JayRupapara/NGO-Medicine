@@ -118,7 +118,7 @@ const Register = () => {
         });
       } else {
         const response = await fetch(
-          "http://localhost:3000/api/registerdoner",
+          "https://ngo-medicine.onrender.com/api/registerdoner",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },

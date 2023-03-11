@@ -54,7 +54,7 @@ const Login = () => {
           progress: undefined,
         });
       } else {
-        const response = await fetch("http://localhost:3000/api/logindoner", {
+        const response = await fetch("https://ngo-medicine.onrender.com/api/logindoner", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

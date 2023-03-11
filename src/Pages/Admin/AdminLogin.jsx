@@ -55,7 +55,7 @@ export const AdminLogin = () => {
         });
       } else {
         const response = await fetch(
-          "http://localhost:3000/api/admin/loginadmin",
+          "https://ngo-medicine.onrender.com/api/admin/loginadmin",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },

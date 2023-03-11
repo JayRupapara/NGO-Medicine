@@ -66,7 +66,7 @@ const AddMedicine = () => {
       });
     } else {
       MedicineData.DonerId = window.localStorage.getItem("DonerId");
-      const response = await fetch("http://localhost:3000/api/donatemedicine", {
+      const response = await fetch("https://ngo-medicine.onrender.com/api/donatemedicine", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(MedicineData),

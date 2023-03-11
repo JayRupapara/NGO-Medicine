@@ -13,7 +13,7 @@ const ParticularMedicineForDoner = () => {
   // -------------------- Fetch Medicine Data --------------------
   const fetchMedicineData = async () => {
     const response = await fetch(
-      `http://localhost:3000/api/admin/medicine/${id}`,
+      `https://ngo-medicine.onrender.com/api/admin/medicine/${id}`,
       {
         method: "GET",
         headers: { "Content-Type": "application/json" },
